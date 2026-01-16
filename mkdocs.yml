@@ -1,1 +1,23 @@
-site_name: My Docs
+site_name: "Documentation Mosifra"
+site_description: "La documentation officielle du projet de gestion de stages à l'international Mosifra"
+theme:
+  name: material
+  logo: assets/logoverttext.svg 
+  language: en
+  palette: 
+    - scheme: default
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode nuit
+    - scheme: slate
+      primary: green
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode jour
+nav:
+  - Accueil: index.md
+plugins:
+  - search   
