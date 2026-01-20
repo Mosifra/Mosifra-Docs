@@ -16,6 +16,7 @@
         python314
         python314Packages.mkdocs
         python314Packages.mkdocs-material
+        python314Packages.mkdocstrings
       ];
 
       shellHook = ''
